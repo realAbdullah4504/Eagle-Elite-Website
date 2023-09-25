@@ -43,7 +43,7 @@ export default function NavBar() {
           sx={{ '&:hover':{cursor:'pointer'}}}
           color={shades.secondary[500]}
         >
-          Ecommerce
+          Shoe Store
         </Box>
         <Box display='flex'
           justifyContent='center'
