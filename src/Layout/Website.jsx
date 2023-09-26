@@ -24,7 +24,7 @@ export default function Website() {
       <NavBar />
       <CartMenu />
       <Routes>
-        <Route path='/' element={<  Home />} />
+        <Route path='/' element={<Home/>} />
         <Route path='/item/:itemId' element={<ItemDetails />} />
         <Route path='/login' element={<Login />} />
         <Route path='/login/:userId' element={<OrdersHistory />} />
