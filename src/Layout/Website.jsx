@@ -9,7 +9,6 @@ import OrdersHistory from "../components/global/OrdersHistory";
 import CheckOut from "../components/Scenes/Checkout/CheckOut";
 import Confirmation from "../components/Scenes/Checkout/Confirmation";
 import Footer from "../components/global/Footer";
-import Articles from "../components/Home";
 
 const ScrollToTop = () => {
   const { path } = useLocation();
@@ -26,7 +25,6 @@ export default function Website() {
       <CartMenu />
       <Routes>
         <Route path='/' element={<  Home />} />
-        <Route path='/home' element={<Articles />} />
         <Route path='/item/:itemId' element={<ItemDetails />} />
         <Route path='/login' element={<Login />} />
         <Route path='/login/:userId' element={<OrdersHistory />} />
@@ -36,4 +34,4 @@ export default function Website() {
       <Footer />
     </>
   );
-}
+  }
